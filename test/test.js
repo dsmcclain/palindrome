@@ -27,10 +27,15 @@ describe("Phrase", function() {
 	});
 
 	describe("#letters", function() {
-		
+
 		it("should return only letters", function() {
 			let punctuatedPalindrome = new Phrase("Madam, I'm Adam");
 			assert.strictEqual(punctuatedPalindrome.letters(), "MadamImAdam");
+		});
+
+		it("should return empty string if phrase contains no letters", function() {
+			let noLetters = new Phrase("1234");
+			assert.strictEqual(noLetters.letters(), "");
 		});
 	});
 });
