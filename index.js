@@ -1,3 +1,4 @@
+module.exports = Phrase;
 // Reverses a string
 let reverse = (string) => {
 	return Array.from(string).reverse().join("");

@@ -1,0 +1,1 @@
+This is a sample NPM module that tests whether a phrase is a palindrome.
