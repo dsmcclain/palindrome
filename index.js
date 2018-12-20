@@ -13,6 +13,11 @@ String.prototype.reverse = function() {
 function Phrase(content) {
 	this.content = content;
 
+	//Returns the letters in the content.
+	this.letters = function letters() {
+		return this.content; //stub return value
+	}
+	
 	//Returns content swithced to lower case
 	this.processor = function(string) {
 		return string.toLowerCase();
